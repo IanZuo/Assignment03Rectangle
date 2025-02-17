@@ -5,13 +5,13 @@
 
 *TODO*: Please edit the following information in your assignment
 
-* Name:Boyang Zuo
-* GitHub Username: IanZuo
-* Undergraduate or Graduate Student:Graduate
-* How many hours did it take you to complete this assignment? 20hours, My coding enviorment messed up this week.2hours for coding ,18 hours debugging lol.
-* Did you collaborate or share ideas with any other students/TAs/Professors? No
-* Did you use any external resources? No
-* (Optional) What was the most interesting part of the assignment? How would you improve this assignment? To finally make everything work.
+* Name:
+* GitHub Username:
+* Undergraduate or Graduate Student:
+* How many hours did it take you to complete this assignment?
+* Did you collaborate or share ideas with any other students/TAs/Professors?
+* Did you use any external resources?
+* (Optional) What was the most interesting part of the assignment? How would you improve this assignment?
 
 # Implementation Logistics
 

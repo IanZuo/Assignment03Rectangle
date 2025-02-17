@@ -1,9 +1,9 @@
 #ifndef APPLICATION_H
 #define APPLICATION_H
 
-#include <SDL2/SDL.h>
+#include "SDL.h"
 #include <vector>
-#include "Rectangle.h"
+#include "../include/Rectangle.h"
 
 // Main application class to manage SDL2 window, events, and rendering
 class Application {

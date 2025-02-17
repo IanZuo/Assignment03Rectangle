@@ -1,5 +1,7 @@
+#define SDL_MAIN_HANDLED
+#include "SDL.h"
 #include <iostream>
-#include "Application.h"
+#include "../include/Application.h"
 
 // Entry point of the program
 int main(int argc, char* argv[]) {

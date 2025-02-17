@@ -78,5 +78,23 @@ void Application::Render() {
 void Application::Cleanup() {
     if (renderer) {
         SDL_DestroyRenderer(renderer);
+        renderer = nullptr;
     }
-    if (windo
+    if (window) {
+        SDL_DestroyWindow(window);
+        window = nullptr;
+    }
+    SDL_Quit();
+}
+// Run the main application loop
+void Application::Run() {
+    while (isRunning) {
+        HandleEvents();  // Process user input (e.g., quit event)
+        Update();        // Move rectangles
+        Render();        // Draw everything
+
+        // Limit frame rate (optional but recommended)
+        SDL_Delay(16);  // ~60 FPS (1000 ms / 60 frames ≈ 16 ms per frame)
+    }
+}
+
